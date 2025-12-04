@@ -1,0 +1,39 @@
+# === Rust / Cargo ===
+/target/
+**/*.rs.bk
+
+# === Build / Debug Files ===
+debug/
+release/
+build/
+
+# === IDE / Editor ===
+# VSCode
+.vscode/
+*.code-workspace
+
+# JetBrains (CLion, IntelliJ Rust)
+.idea/
+
+# === Backup Files ===
+*.swp
+*.swo
+*~
+*.tmp
+
+# === OS Specific ===
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+
+# === Logs ===
+*.log
+
+# === Environment Files ===
+.env
+.env.*
